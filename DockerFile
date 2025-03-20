@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirement.txt
 
 EXPOSE 8080
 
-ENTRYPOINT ["streamlit", "run","VI_webapp.py","--server.port=8080","--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run","wip_webapp.py","--server.port=8080","--server.address=0.0.0.0"]
